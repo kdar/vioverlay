@@ -1,0 +1,10 @@
+project
+  : requirements <include>../include <include>D:/dx/Include
+  : default-build release
+  ;
+  
+lib vioverlay  
+  : [ glob ../src/*.cpp ] [ glob ../src/common/*.cpp ]
+  : <link>static
+  ;
+  

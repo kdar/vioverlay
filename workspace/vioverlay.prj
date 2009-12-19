@@ -1,0 +1,133 @@
+[Debug Settings]
+Program Arguments=
+Selected Debugger=0
+Source Paths=
+Symbol Paths=
+Working Directory=
+[Open Files]
+Active File Display Mode=3
+Active File Index=6
+Open File Line0=61
+Open File Line1=0
+Open File Line2=162
+Open File Line3=0
+Open File Line4=1447
+Open File Line5=0
+Open File Line6=1863
+Open File Line7=0
+Open File Line8=160
+Open File Line9=0
+Open File Pos0=83
+Open File Pos1=121
+Open File Pos2=97
+Open File Pos3=34
+Open File Pos4=6093
+Open File Pos5=576
+Open File Pos6=2542
+Open File Pos7=16
+Open File Pos8=973
+Open File Pos9=981
+Open File Window Pos0=0,1,-1,-1,-4,-23,308,308,1364,945
+Open File Window Pos1=0,1,-1,-1,-4,-23,264,264,1320,901
+Open File Window Pos2=0,1,-1,-1,-4,-23,0,0,1056,637
+Open File Window Pos3=0,1,-1,-1,-4,-23,66,66,1122,703
+Open File Window Pos4=0,1,-1,-1,-4,-23,22,22,1078,659
+Open File Window Pos5=0,1,-1,-1,-4,-23,44,44,1100,681
+Open File Window Pos6=2,3,-1,-1,-4,-23,264,264,1320,901
+Open File Window Pos7=0,1,-1,-1,-4,-23,22,22,466,247
+Open File Window Pos8=0,1,-1,-1,-4,-23,66,66,1122,703
+Open File Window Pos9=0,1,-1,-1,-4,-23,198,198,1254,835
+Open File0=..\src\Dx9hook.cpp
+Open File1=..\include\Dx9hook.h
+Open File10=
+Open File2=..\src\Dxhook.cpp
+Open File3=..\include\Dxhook.h
+Open File4=..\src\Renderer.cpp
+Open File5=..\include\Renderer.h
+Open File6=J:\cwc3\build\bakefiles\cwc3.bkl
+Open File7=D:\Programming\C++\Projects\VIOverlay\build\bootstrap.bat
+Open File8=..\include\common\SharedStruct.h
+Open File9=..\build\vioverlay.bkl
+[uemakeXp]
+Compiler=Configs\Microsoft .NET\Visual C++ compiler\MFC Dynamic-Link Library
+ReleaseMode=1
+[Files - build]
+0=..\build\Jamroot
+1=..\build\vioverlay.bkl
+[Project Information]
+Compilable=1
+Use Relative Directory=1
+Relative to Project File=1
+Project Start=D70706000000030015001E003900000053
+Include Sub Directories=1
+Project Tagfile=
+Project Wordfile=
+Filter=
+Using VCS=0
+Save Account=0
+Create Tagfile=0
+CTags Legacy Support=0
+Working Time=28010
+[Files - include]
+0=..\include\Dxhook.h
+1=..\include\Renderer.h
+2=..\include\Dx9hook.h
+[Files - src - common]
+0=..\src\common\Ipc.cpp
+1=..\src\common\IpcProtocol.cpp
+[Configs\Microsoft .NET\Visual C++ compiler\MFC Dynamic-Link Library]
+Additional Include Directories=
+Align=
+Calling Convention=__cdecl
+Command Line Arguments=vioverlay.DLL
+Comment=
+Compiler Options=
+ConDisp=enable
+Debug Type=Microsoft Format
+Debugger=msdev
+DevStudio=7.1
+Exception Handling=enable
+Excluded Files=Excludes
+External Dependencies=yes
+Incremental Compilation=no
+Libraries=
+Link With=MD
+Linker Options=
+Machine=IX86
+Map File=no
+Map Info=
+Merge=
+Optimization=speed
+OutputDirectory_DebugMode=Debug
+OutputDirectory_ReleaseMode=Release
+Preprocessor (Debug)="/D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL""
+Preprocessor (Release)="/D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL""
+Processor=blend
+RTTI=disable
+Struct Alignment=8 Bytes
+Stub=
+Target=vioverlay.DLL
+Warning Level=3
+Working Directory=.
+[Group]
+0=src
+1=include
+2=src - common
+3=include - common
+4=build
+[Files - src]
+0=..\src\Dx9hook.cpp
+1=..\src\Dxhook.cpp
+2=..\src\Renderer.cpp
+[Folders]
+build=1
+include=1
+include - common=1
+src=1
+src - common=1
+[Files - include - common]
+0=..\include\common\Ipc.h
+1=..\include\common\IpcProtocol.h
+2=..\include\common\SharedStruct.h
+[Project ID]
+Signature=UE Proj: v.1

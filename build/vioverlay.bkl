@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<makefile>
+
+<set var="DLLNAME">vioverlay</set>
+<set var="DLLEXT">.dll</set>
+<set var="LIBEXT">.lib</set>
+
+<set var="INCLUDE_DX">D:\dx\Include</set>
+<set var="LIB_DX">D:\dx\Lib\x86</set>
+
+<set var="SRCDIR">..\src</set>
+<set var="BUILDDIR">.\objs</set>
+<set var="LIBDIR">..\lib</set>
+
+<dll id="vioverlay">
+  <threading>multi</threading>
+
+  <dllname>$(DLLNAME)</dllname>
+  
+  <sources>Dx9hook.cpp Dxhook.cpp Renderer.cpp</sources>
+  <sources>common\Ipc.cpp common\IpcProtocol.cpp</sources>
+  
+  <include>..\include</include>
+  <include>$(INCLUDE_DX)</include>
+  
+  <lib-path>$(LIBDIR)</lib-path>
+  <lib-path>$(LIB_DX)</lib-path>
+  <sys-lib>detours</sys-lib>
+  <sys-lib>ddraw</sys-lib>
+  <sys-lib>d3dx9</sys-lib>
+  
+  <sys-lib>Advapi32</sys-lib>
+  
+  <postlink-command>move $(BUILDDIR)\$(DLLNAME)$(DLLEXT) $(LIBDIR)</postlink-command>
+  <postlink-command>move $(BUILDDIR)\$(DLLNAME)$(LIBEXT) $(LIBDIR)</postlink-command>
+</dll>
+
+</makefile>
